@@ -39,3 +39,4 @@ services:
       - debug
 volumes:
   postgres_data:
+# Secure version
