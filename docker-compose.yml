@@ -3,7 +3,7 @@ services:
     image: postgres:15
     environment:
       POSTGRES_USER: marksuser
-      POSTGRES_PASSWORD: markspass
+      POSTGRES_PASSWORD: eric_secret_password
       POSTGRES_DB: marksdb
     volumes:
       - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
